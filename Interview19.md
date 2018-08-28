@@ -26,7 +26,17 @@ HashMap实际上是一个“链表散列”的数据结构，即数组和链表�
 	注意：
 	(01) 特性(3)中的叶子节点，是只为空(NIL或null)的节点。
 	(02) 特性(5)，确保没有一条路径会比其他路径长出俩倍。因而，红黑树是相对是接近平衡的二叉树。   
+      
    
+### HashMap解决hash值冲突的方式    
+   
+![icon](img/Interview19-img04.png)  
+  
+#### hashMap数组扩容   
+  
+![icon](img/Interview19-img05.png)     
+   
+---  
   
 ### ArrayList实现原理要点概括   
 
